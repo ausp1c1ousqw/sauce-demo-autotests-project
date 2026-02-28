@@ -1,0 +1,4 @@
+/node_modules
+/artifacts
+ci.wdio.conf.js
+/.github
