@@ -1,4 +1,3 @@
 /node_modules
 /artifacts
-ci.wdio.conf.js
-/.github
+local.wdio.conf.js

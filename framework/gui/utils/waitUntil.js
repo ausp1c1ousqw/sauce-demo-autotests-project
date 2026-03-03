@@ -1,6 +1,6 @@
 import { logger } from "../../logger/index.js";
 
-const mediumTimeout = parseInt(process.env.IMEOUT_MEDIUM) || 2000;
+const mediumTimeout = parseInt(process.env.TIMEOUT_MEDIUM) || 2000;
 
 export async function waitUntil(conditionFn, description = "condition", timeout = mediumTimeout) {
   logger.info(`Waiting until ${description}`);

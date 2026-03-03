@@ -1,9 +1,9 @@
 import { logger } from "../../logger/index.js";
 import { get } from "lodash-es";
 
-const shortTimeout = parseInt(process.env.IMEOUT_SHORT) || 1000;
-const mediumTimeout = parseInt(process.env.IMEOUT_MEDIUM) || 2000;
-const longTimeout = parseInt(process.env.IMEOUT_LONG) || 5000;
+const shortTimeout = parseInt(process.env.TIMEOUT_SHORT) || 1000;
+const mediumTimeout = parseInt(process.env.TIMEOUT_MEDIUM) || 2000;
+const longTimeout = parseInt(process.env.TIMEOUT_LONG) || 5000;
 
 class BaseElement {
   constructor(elementOrLocator, name, type) {
