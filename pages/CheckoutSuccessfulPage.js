@@ -1,4 +1,4 @@
-import { Label, BasePage } from "../framework/gui/index.js";
+import { Label, BasePage } from "../framework/gui";
 
 class CheckoutSuccessfulPage extends BasePage {
   selectors = {

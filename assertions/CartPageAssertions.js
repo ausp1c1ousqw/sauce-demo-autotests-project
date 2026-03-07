@@ -1,5 +1,5 @@
-import { assertWithLogging } from "../framework/index.js";
-import { cartPage } from "../pages/index.js";
+import { assertWithLogging } from "../framework/gui";
+import { cartPage } from "../pages";
 
 class CartPageAssertions {
   async verifyNumberOfProductsInCart(expected) {

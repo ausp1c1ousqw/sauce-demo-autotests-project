@@ -1,7 +1,7 @@
 import path from "path";
 import { writeFile } from "fs/promises";
-import { generateTimestampedFileName, ensureDirExists, getDailyDebugDir } from "../utils/index.js";
-import { logger } from "../logger/index.js";
+import { generateTimestampedFileName, ensureDirExists, getDailyDebugDir } from "../utils";
+import { logger } from "../logger";
 
 const debugDir = getDailyDebugDir();
 const screenshotsDir = ensureDirExists(`${debugDir}/screenshots`);

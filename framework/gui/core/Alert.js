@@ -1,4 +1,4 @@
-import { logger } from "../../logger/index.js";
+import { logger } from "../../logger";
 
 class Alert {
   async waitForAlert(timeout = config.timeouts.medium) {

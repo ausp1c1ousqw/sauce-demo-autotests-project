@@ -1,8 +1,5 @@
-import {
-  getAndSavePageSource,
-  takeAndSaveScreenshot,
-  getCurrentTestFile,
-} from "../../framework/index.js";
+import { getAndSavePageSource, takeAndSaveScreenshot } from "../../framework/debugHelpers";
+import { getCurrentTestFile } from "../../framework/logger";
 import allure from "@wdio/allure-reporter";
 
 export default async function (testName) {

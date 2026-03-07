@@ -1,4 +1,4 @@
-import { Button, BasePage } from "../framework/gui/index.js";
+import { Button, BasePage } from "../framework/gui";
 
 class CheckoutStepTwoPage extends BasePage {
   selectors = {

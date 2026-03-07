@@ -1,6 +1,6 @@
 import { Given, When, Then } from "@cucumber/cucumber";
-import { checkoutStepOnePageAssertions } from "../assertions/index.js";
-import { checkoutStepOnePage } from "../pages/index.js";
+import { checkoutStepOnePageAssertions } from "../assertions";
+import { checkoutStepOnePage } from "../pages";
 
 Given("the user is on the checkout page", async () => {
   await checkoutStepOnePage.open();

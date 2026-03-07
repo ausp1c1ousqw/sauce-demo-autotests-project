@@ -1,5 +1,5 @@
-import { subscribeLoggerToProcessEvents } from "./framework/index.js";
-import { loadEnv } from "./framework/index.js";
+import { subscribeLoggerToProcessEvents } from "./framework/logger/index.js";
+import { loadEnv } from "./framework/utils/index.js";
 
 loadEnv(".env.ci");
 

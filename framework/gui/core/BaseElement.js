@@ -1,4 +1,4 @@
-import { logger } from "../../logger/index.js";
+import { logger } from "../../logger";
 import { get } from "lodash-es";
 
 const shortTimeout = parseInt(process.env.TIMEOUT_SHORT) || 1000;

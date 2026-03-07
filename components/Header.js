@@ -1,4 +1,4 @@
-import { Button, Label, Link, waitUntil } from "../framework/gui/index.js";
+import { Button, Label, Link, waitUntil } from "../framework/gui";
 
 class Header {
   selectors = {

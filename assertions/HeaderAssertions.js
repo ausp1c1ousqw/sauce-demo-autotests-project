@@ -1,5 +1,5 @@
-import { assertWithLogging } from "../framework/index.js";
-import { header } from "../components/index.js";
+import { assertWithLogging } from "../framework/gui";
+import { header } from "../components";
 
 class HeaderAssertions {
   async verifyCartBadgeCount(expected) {

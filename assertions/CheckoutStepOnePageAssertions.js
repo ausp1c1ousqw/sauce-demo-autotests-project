@@ -1,6 +1,6 @@
-import { assertWithLogging } from "../framework/index.js";
-import { checkoutStepOnePage } from "../pages/index.js";
-import { errors } from "../fixtures/index.js";
+import { assertWithLogging } from "../framework/gui";
+import { checkoutStepOnePage } from "../pages";
+import { errors } from "../fixtures";
 
 class CheckoutStepOnePageAssertions {
   async verifyCheckoutError(errorType) {

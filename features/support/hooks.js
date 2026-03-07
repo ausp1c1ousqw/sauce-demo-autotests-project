@@ -1,5 +1,5 @@
 import onError from "./onError.js";
-import { logger, startLoggingForTest, stopLoggingForTest } from "../../framework/index.js";
+import { logger, startLoggingForTest, stopLoggingForTest } from "../../framework/logger";
 import { Before, After, BeforeStep, AfterStep } from "@cucumber/cucumber";
 
 Before(async function ({ pickle }) {

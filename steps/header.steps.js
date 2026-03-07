@@ -1,6 +1,6 @@
 import { When, Then } from "@cucumber/cucumber";
-import { headerAssertions } from "../assertions/index.js";
-import { header } from "../components/index.js";
+import { headerAssertions } from "../assertions";
+import { header } from "../components";
 
 Then("the cart badge should display {string}", async (number) => {
   await header.waitUntilBadgeCountEquals(number);

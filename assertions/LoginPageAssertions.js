@@ -1,6 +1,6 @@
-import { assertWithLogging } from "../framework/index.js";
-import { loginPage } from "../pages/index.js";
-import { errors, titles } from "../fixtures/index.js";
+import { assertWithLogging } from "../framework/gui";
+import { loginPage } from "../pages";
+import { errors, titles } from "../fixtures";
 
 class LoginPageAssertions {
   async verifyLoginError(error) {

@@ -1,6 +1,6 @@
 import { When, Then } from "@cucumber/cucumber";
-import { loginPage } from "../pages/index.js";
-import { loginPageAssertions } from "../assertions/index.js";
+import { loginPage } from "../pages";
+import { loginPageAssertions } from "../assertions";
 
 When("the user logs in as {string}", async (userType) => {
   await loginPage.loginAs(userType);

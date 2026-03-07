@@ -1,5 +1,5 @@
 import { navigateTo } from "../utils/navigateTo.js";
-import { logger } from "../../logger/index.js";
+import { logger } from "../../logger";
 
 class BasePage {
   constructor(pageURL) {

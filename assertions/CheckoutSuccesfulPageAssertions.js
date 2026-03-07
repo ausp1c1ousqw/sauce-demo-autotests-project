@@ -1,6 +1,6 @@
-import { assertWithLogging } from "../framework/index.js";
-import { checkoutSuccessfulPage } from "../pages/index.js";
-import { titles } from "../fixtures/index.js";
+import { assertWithLogging } from "../framework/gui";
+import { checkoutSuccessfulPage } from "../pages";
+import { titles } from "../fixtures";
 
 class CheckoutSuccessfulPageAssertions {
   async verifyCheckoutSuccessfulPage() {

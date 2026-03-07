@@ -1,4 +1,4 @@
-import { Label, Button, BasePage } from "../framework/gui/index.js";
+import { Label, Button, BasePage } from "../framework/gui";
 
 class ProductPage extends BasePage {
   selectors = {

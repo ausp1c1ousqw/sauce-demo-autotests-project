@@ -1,5 +1,5 @@
-import { Label, Button, Input, BasePage } from "../framework/gui/index.js";
-import { infos } from "../fixtures/index.js";
+import { Label, Button, Input, BasePage } from "../framework/gui";
+import { infos } from "../fixtures";
 
 class CheckoutStepOnePage extends BasePage {
   selectors = {

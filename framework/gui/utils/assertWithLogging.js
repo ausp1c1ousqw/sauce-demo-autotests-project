@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { logger } from "../../logger/index.js";
+import { logger } from "../../logger";
 
 export function assertWithLogging(actual, expected, message) {
   const fullMessage = `${message}

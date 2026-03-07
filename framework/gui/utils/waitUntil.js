@@ -1,4 +1,4 @@
-import { logger } from "../../logger/index.js";
+import { logger } from "../../logger";
 
 const mediumTimeout = parseInt(process.env.TIMEOUT_MEDIUM) || 2000;
 

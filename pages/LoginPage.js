@@ -1,5 +1,5 @@
-import { BasePage, Label, Input, Button } from "../framework/gui/index.js";
-import { users } from "../fixtures/index.js";
+import { BasePage, Label, Input, Button } from "../framework/gui";
+import { users } from "../fixtures";
 
 class LoginPage extends BasePage {
   selectors = {
